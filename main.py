@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World245!</p>"
+    return "<p>this is testing of CICD pipeline using webhooks</p>"
 
 app.run(port=5000)
