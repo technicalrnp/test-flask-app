@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>testingf6</p>"
+    return "<p>testing6</p>"
 
 app.run(port=5000)
